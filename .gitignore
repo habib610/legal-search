@@ -1,0 +1,75 @@
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+frontend/.env.test.local
+
+# Vite build cache
+frontend/.vite-cache/
+frontend/.parcel-cache/
+
+# Editor logs and debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+backend/coverage.xml
+backend/.env
+backend/.env.local
+backend/venv/
+backend/env/
+backend/.venv/
+backend/.idea/
+backend/.vscode/
+
+# Build / Distribution artifacts
+backend/build/
+backend/dist/
+backend/*.egg-info/
+
+# SQLite or test databases
+backend/*.db
+backend/*.sqlite3
+
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Python bytecode
+*.py[cod]
+*$py.class
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+docker-compose.override.yml
+.env.docker
+backend/__pycache__/main.cpython-314.pyc
