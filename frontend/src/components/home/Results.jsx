@@ -18,7 +18,7 @@ const Results = ({ results }) => {
 
             <Modal
                 modalContentClassName={
-                    "mt-0 w-full lg:min-w-[400px] overflow-auto max-h-[600px]"
+                    "mt-0 w-full lg:min-w-[400px] lg:max-w-[600px] overflow-auto max-h-[600px]"
                 }
                 isOpen={openDoc}
                 onClose={() => setOpenDoc(null)}
