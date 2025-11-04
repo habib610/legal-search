@@ -1,7 +1,15 @@
+import Footer from "./components/global/Footer";
+import Navbar from "./components/global/Navbar";
+import HomePage from "./pages/home";
+
 function App() {
     return (
-        <div>
-            <h1 className="bg-amber-600">Legal Documents</h1>
+        <div className="flex flex-col min-h-screen">
+            <Navbar />
+            <main className="flex-1 flex flex-col">
+                <HomePage />
+            </main>
+            <Footer />
         </div>
     );
 }
