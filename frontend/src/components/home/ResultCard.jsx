@@ -1,9 +1,13 @@
 import { HiOutlineClipboardDocumentList } from "react-icons/hi2";
 import P from "../typography/P";
 
-const ResultCard = () => {
+const ResultCard = ({ onClick }) => {
     return (
-        <div className="border border-gray-200 shadow-md py-2 px-4 flex flex-col gap-4 max-w-[600px]">
+        <div
+            role="button"
+            onClick={onClick}
+            className="border border-gray-200 shadow-md py-2 px-4 flex flex-col gap-4 max-w-[600px] hover:cursor-pointer"
+        >
             <P className="font-semibold">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Accusantium, repellendus!
