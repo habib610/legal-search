@@ -27,7 +27,7 @@ const Modal = ({ isOpen, onClose, children, modalContentClassName }) => {
                         onClick={(e) => e.stopPropagation()}
                     >
                         <button
-                            className=" absolute top-1 right-1.5 text-3xl   text-gray-400 hover:cursor-pointer"
+                            className=" absolute top-1 right-1.5 text-2xl lg:text-3xl   text-gray-400 hover:cursor-pointer"
                             onClick={onClose}
                         >
                             <LiaTimesSolid />
